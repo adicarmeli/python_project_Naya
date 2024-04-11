@@ -10,7 +10,7 @@ import seaborn as sns
 #pd.set_option('display.max_columns', None)
 
 #load the CSV file into a DataFrame
-data_path = 'hotel_bookings.csv'
+data_path = '/content/python_project_naya/hotel_bookings.csv'
 data = pd.read_csv(data_path)
 
 """**Data Observation & Verification**"""
